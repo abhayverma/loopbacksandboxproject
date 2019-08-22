@@ -1,0 +1,27 @@
+{
+  "name": "Donar",
+  "base": "User",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "country": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "gifts": {
+      "type": "hasMany",
+      "model": "Gift",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

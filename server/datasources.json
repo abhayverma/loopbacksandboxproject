@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "givesomebody": {
+    "host": "127.0.0.1",
+    "port": 3306,
+    "url": "",
+    "database": "givesomebody",
+    "password": "Valuefy@123",
+    "name": "givesomebody",
+    "user": "root",
+    "connector": "mysql"
+  }
+}
